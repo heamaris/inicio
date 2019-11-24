@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="estilos_formulario.css">
+  
+	<title>Formulario DE PETICION</title>
+</head>
+<body background="img/image.png">
+	<form action="insertar.php" method="POST" class="form-register">
+		<h2 class="form__titulo">FORMULARIO</h2>
+	<div class="contenedor-inputs">
+	<p>
+        <label>NOMBRES</label>
+		<select name="nombres" class="input-100">
+         <option value="1">HERMES FERNANDO</option> 
+         <option value="2">OTRO</option> 
+        </select>
+    </p>
+    <p>      
+        <label>IGLESIA</label>
+        <select name="ips" class="input-100">
+         <option value="10022">MARANATHA</option> 
+         <option value="10192">SANTA RTA</option>
+         <option value="10290">VERSALLE</option>
+         <option value="10419">OTRO</option> 
+        </select>
+    </p>
+    <p>
+        <label>REGIONAL</label>
+        <select name="regional" class="input-100">
+         <option value="1">BOGOTA</option> 
+         <option value="2">CENTRO - ORIENTE</option>
+         <option value="3">EJE CAFETERO</option>
+         <option value="4">NOR - OCCIDENTE</option>
+         <option value="5">NOR - ORIENTE</option>
+         <option value="6">NORTE</option>
+         <option value="7">SUR - OCCIDENTE</option>
+        </select>
+    </p>
+    <p>
+        <td><label>Zonal</label></td>
+        <select name="zonal" class="input-100" required>
+         <option value="1">BOGOTA</option> 
+         <option value="2">BOLIVAR</option>
+         <option value="3">BOYACA</option>
+         <option value="4">CALDAS</option>
+         <option value="5">CASANARE</option>
+         <option value="6">CAUCA</option>
+         <option value="7">CESAR</option>
+        </select>
+    </p>
+        <td><label>FECHA INICIAL</label></td> 
+            <input type="date" name="fecha_inicial" required class="input-100"><br> <br>
+        <td><label>FECHA FINAL</label></td> 
+            <input type="date" name="fecha_final" required class="input-100">
+
+    <p>
+    <label>1. ¿reconoce que jesucristo es tu salvador?</label>
+        <br>
+        <input type="radio" name="pregunta_1" value="SI">SI
+        <input type="radio" name="pregunta_1" value="NO">NO
+        <input type="radio" name="pregunta_1" value="NO SERVICIO">NO se
+        <input type="radio" name="pregunta_1" value="NO APLICA">NO APLICA
+    </p> 
+
+    <p>
+    <label>2. ¿te gustaria que llamaran?</label>
+        <br>
+        <input type="radio" name="pregunta_2" value="SI">SI
+        <input type="radio" name="pregunta_2" value="NO">NO
+        <input type="radio" name="pregunta_2" value="NO SERVICIO">QUIZAS
+        <input type="radio" name="pregunta_2" value="NO APLICA">OTRO
+    </p>
+
+    <p>
+    <label>3. ¿La IPS cuenta con muro de impacto ubicado detrás de los muebles de la recepción principal de línea de frente con el logotipo sobre la pared de color blanco?</label>
+        <br>
+        <input type="radio" name="pregunta_3" value="SI">SI
+        <input type="radio" name="pregunta_3" value="NO">NO
+        <input type="radio" name="pregunta_3" value="NO SERVICIO">NO SERVICIO
+        <input type="radio" name="pregunta_3" value="NO APLICA">NO APLICA
+    </p>
+
+    <p>
+    <label>4. ¿El muro de impacto se encuentra limpio, pared blanca con sus respectivas letras de colores corporativos (azul y rojo), nombre de la Razón Social y con el mantenimiento respectivo?</label>
+        <br>
+        <input type="radio" name="pregunta_4" value="SI">SI
+        <input type="radio" name="pregunta_4" value="NO">NO
+        <input type="radio" name="pregunta_4" value="NO SERVICIO">NO SERVICIO
+        <input type="radio" name="pregunta_4" value="NO APLICA">NO APLICA
+    </p>
+    <p>
+    <label>5. ¿Línea de frente cuenta con muebles tipo Recepción para la atención a los afiliados?</label>
+        <br>
+        <input type="radio" name="pregunta_5" value="SI">SI
+        <input type="radio" name="pregunta_5" value="NO">NO
+        <input type="radio" name="pregunta_5" value="NO SERVICIO">NO SERVICIO
+        <input type="radio" name="pregunta_5" value="NO APLICA">NO APLICA
+    </p>
+    <p>
+    <label>6. ¿Se cuenta en la línea de frente con área específica y señalada como Caja para la facturación de los servicios?</label>
+	    <br>
+	    <input type="radio" name="pregunta_6" value="SI">SI
+	    <input type="radio" name="pregunta_6" value="NO">NO
+	    <input type="radio" name="pregunta_6" value="NO SERVICIO">NO SERVICIO
+	    <input type="radio" name="pregunta_6" value="NO APLICA">NO APLICA
+	</p>
+	<p>
+	<label>7. ¿Cuántos puestos línea de frente hay en toda la IPS?</label>
+        <br>
+        <input type="text" name="pregunta_7">
+    </p>  
+    <p>
+	<label>8. ¿Cuantos de ese total de puestos cumplen con la siguiente verificación: se encuentra en buenas condiciones físicas y de aseo, no tienen: ¿láminas sueltas, dobladas, dañadas, etc., que cada funcionario tenga su silla, esté en buen estado y cumpla con el modelo institucional (color rojo)?</label>
+        <br>
+        <input type="text" name="pregunta_8">
+    </p>
+    <p>
+    <label>9. ¿Se cuenta en la línea de frente con área específica y señalada como citas y autorizaciones?</label>
+        <br>
+        <input type="radio" name="pregunta_9" value="SI">SI
+        <input type="radio" name="pregunta_9" value="NO">NO
+        <input type="radio" name="pregunta_9" value="NO SERVICIO">NO SERVICIO
+        <input type="radio" name="pregunta_9" value="NO APLICA">NO APLICA
+    </p>
+    <p>
+    <label>10. ¿Se cuenta en la línea de frente con área de atención preferencial debidamente señalizada?</label>
+        <br>
+        <input type="radio" name="pregunta_10" value="SI">SI
+        <input type="radio" name="pregunta_10" value="NO">NO
+        <input type="radio" name="pregunta_10" value="NO SERVICIO">NO SERVICIO
+        <input type="radio" name="pregunta_10" value="NO APLICA">NO APLICA
+    </p> 
+    <p>
+    <label>11. ¿Existe digiturno, se encuentra debidamente identificado y en funcionamiento? </label>
+        <br>
+        <input type="radio" name="pregunta_11" value="SI">SI
+        <input type="radio" name="pregunta_11" value="NO">NO
+        <input type="radio" name="pregunta_11" value="NO SERVICIO">NO SERVICIO
+        <input type="radio" name="pregunta_11" value="NO APLICA">NO APLICA
+    </p>
+    <p>
+    <label>12. ¿En los sitios de espera de la IPS cuentan con botes de basura y bolsa de color verde? </label>
+        <br>
+        <input type="radio" name="pregunta_12" value="SI">SI
+        <input type="radio" name="pregunta_12" value="NO">NO
+        <input type="radio" name="pregunta_12" value="NO SERVICIO">NO SERVICIO
+        <input type="radio" name="pregunta_12" value="NO APLICA">NO APLICA
+    </p>
+    <p>
+    <label>13. ¿La IPS se encuentra dotada de equipos para prevención y control de incendios?</label>
+        <br>
+        <input type="radio" name="pregunta_13" value="SI">SI
+        <input type="radio" name="pregunta_13" value="NO">NO
+        <input type="radio" name="pregunta_13" value="NO SERVICIO">NO SERVICIO
+        <input type="radio" name="pregunta_13" value="NO APLICA">NO APLICA
+    </p>
+    <p>
+	<label>14. Califique de 1 a 10, siendo 1 pésimo estado y 10 excelente estado el aseo de los 2 consultorios verificados</label>
+        <br>
+        <input type="text" name="pregunta_14">
+    </p>
+    <p>
+	<label>15. Califique de 1 a 10, siendo 1 pésimo estado y 10 excelente estado de las Unidades odontologías. Verifique (forros rotos, partes oxidadas, goteos, etc.) </label>
+        <br>
+        <input type="text" name="pregunta_15">
+    </p>
+    <p>
+    <label>16. ¿La IPS tiene publicado el plano de evacuación en la sala de espera o áreas de alta circulación?</label>
+        <br>
+        <input type="radio" name="pregunta_16" value="SI">SI
+        <input type="radio" name="pregunta_16" value="NO">NO
+        <input type="radio" name="pregunta_16" value="NO SERVICIO">NO SERVICIO
+        <input type="radio" name="pregunta_16" value="NO APLICA">NO APLICA
+    </p>
+    <p>
+    <label>17. ¿La IPS cuenta con alarma de emergencia y/o evacuación?</label>
+        <br>
+        <input type="radio" name="pregunta_17" value="SI">SI
+        <input type="radio" name="pregunta_17" value="NO">NO
+        <input type="radio" name="pregunta_17" value="NO SERVICIO">NO SERVICIO
+        <input type="radio" name="pregunta_17" value="NO APLICA">NO APLICA
+    </p>
+    <p>
+    <label>18. ¿La IPS cuenta con iluminación alterna o alumbrado de emergencia en rutas de evacuación?</label>
+        <br>
+        <input type="radio" name="pregunta_18" value="SI">SI
+        <input type="radio" name="pregunta_18" value="NO">NO
+        <input type="radio" name="pregunta_18" value="NO SERVICIO">NO SERVICIO
+        <input type="radio" name="pregunta_18" value="NO APLICA">NO APLICA
+    </p>
+    <p>
+    <label>19. ¿Los consultorios son con espacio cerrado y cuentan con dos ambientes, uno para realización de entrevista y otro para realización de examen físico?</label>
+        <br>
+        <input type="radio" name="pregunta_19" value="SI">SI
+        <input type="radio" name="pregunta_19" value="NO">NO
+        <input type="radio" name="pregunta_19" value="NO SERVICIO">NO SERVICIO
+        <input type="radio" name="pregunta_19" value="NO APLICA">NO APLICA
+    </p>
+    <p>
+    <label>20.¿Los 2 consultorios verificados cuentan con escritorio, computador, sillas institucionales para el profesional y para el paciente?</label>
+        <br>
+        <input type="radio" name="pregunta_20" value="SI">SI
+        <input type="radio" name="pregunta_20" value="NO">NO
+        <input type="radio" name="pregunta_20" value="NO SERVICIO">NO SERVICIO
+        <input type="radio" name="pregunta_20" value="NO APLICA">NO APLICA
+    </p>   
+    <p>
+	<label>OBSERVACIONES</label></p> <textarea rows="5" cols="90" name="observaciones"></textarea>
+    </p>       
+      
+    <p> 
+        <input type="submit" value="Guardar" class="btn-enviar">
+    </p>
+	<p class="form__link">Ir al Menu <a href="Menu.html">Ingrese aqui</a></p>
+	</div>	
+	</form>
+</body>
+</html>
