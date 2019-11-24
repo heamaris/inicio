@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="estilos_registro.css">
+	<title>Formulario Registro</title>
+</head>
+<body background="img/image.png">
+	<form action="insertar_registro.php" method="POST" class="form-register">
+		<h2 class="form__titulo">CREAR USUARIOS</h2>
+	<div class="contenedor-inputs">
+		<input type="text" name="nombres" placeholder="Nombres" class="input-48" required>
+		<input type="text" name="apellidos" placeholder="Apellidos" class="input-48" required>
+		<input type="text" name="usuario" placeholder="Usuario" class="input-48" required>
+		<input type="password" name="clave" placeholder="Contraseña" class="input-48" required>
+	    <!---<input type="text" name="id_perfil" placeholder="Perfil" class="input-100" required>--> 
+		<select name="id_perfil" class="input-100">
+         <option value="0">Administrador</option> 
+         <option value="1">Usuario</option> 
+        </select>
+        <br> <br>
+        <p> </p>
+		<input type="submit" value="Registrar" class="btn-enviar">
+		<p class="form__link">Ir al Menu <a href="Menu.html">Ingrese aqui</a></p>
+	</div>	
+	</form>
+</body>
+</html>
